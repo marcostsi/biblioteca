@@ -22,3 +22,6 @@ Emprestimo(**ID_Emprestimo**, Num_Dias, Data_Saida, Data_Entrada, Data_Reserva, 
 Livro_Emprestimo(_ID_Emprestimo_, _ID_Livro_)
 - ID_Emprestimo referencia Emprestimo\
 - ID_Livro referencia Livro
+
+## Diagrama
+![Diagrama](diagrama.png)
