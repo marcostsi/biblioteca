@@ -13,7 +13,7 @@ CREATE TABLE
 
 CREATE TABLE
     categoria (
-        id_categoria INT NOT NULL auto_increment,
+        id_categoria INT NOT NULL AUTO_INCREMENT,
         nome VARCHAR(20) NOT NULL,
         descricao VARCHAR(200),
         num_estante INT,
@@ -37,7 +37,7 @@ CREATE TABLE
 
 CREATE TABLE
     bibliotecario (
-        id_bibliotecario INT NOT NULL,
+        id_bibliotecario INT NOT NULL AUTO_INCREMENT,
         nome VARCHAR(50) NOT NULL,
         endereco VARCHAR(100) NOT NULL,
         email VARCHAR(45) NOT NULL,
@@ -50,7 +50,7 @@ CREATE TABLE
 
 CREATE TABLE
     emprestimo (
-        id_emprestimo INT NOT NULL,
+        id_emprestimo INT NOT NULL AUTO_INCREMENT,
         num_dias INT NOT NULL,
         data_saida DATETIME,
         data_entrada DATETIME,
